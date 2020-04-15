@@ -1,27 +1,23 @@
 {
-  "name": "cart-distribution",
-  "version": "2.1.0",
-  "update": "Reformatted code, fixed adisplash and soleaio",
-  "description": "Free cart management for discords where 'free carts' are available. Stops multiple people accessing a cart.",
-  "main": "main.js",
+  "name": "cart_bot",
+  "version": "1.0.0",
+  "update": "Wraith support added",
+  "description": "Cart Manager for Wraith webhooks",
+  "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "node ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fraserdale/freeCarts.git"
+    "url": "git+https://github.com/rocketdv/cart_bot.git"
   },
-  "author": "jalfrazi aka https://github.com/fraserdale/freeCarts",
+  "author": "rocket",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fraserdale/freeCarts/issues"
+    "url": "https://github.com/rocketdv/cart_bot/issues"
   },
-  "homepage": "https://github.com/fraserdale/freeCarts#readme",
+  "homepage": "https://github.com/rocketdv/cart_bot#readme",
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "electron": "^3.0.3"
-  },
-  "devDependencies": {
-    "electron-rebuild": "^1.8.2"
+    "discord.js": "^12.1.1"
   }
 }

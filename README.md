@@ -1,46 +1,28 @@
-# freeCarts
-Free cart management for discords where 'free carts' are available. Stops multiple people accessing a cart. 
+# Cart Bot
+Open Source cart management for [Wraith](https://wraith.ghostaio.com)
 
 # Instructions
 1. Install [Node.js](https://nodejs.org/en/download/)
-2. Navigate into the freeCarts directory
+2. Navigate into the `cart_bot` directory
 3. In command prompt/terminal type `npm i`
 4. Fill in the `config.json ` file. (more instructions below)
 5. In command prompt/terminal type `npm start`
 
 ### Tips
-Make the channel that the carts are output in a channel where users cannot type (no error handling)
+* Make sure users allow direct messages from server members in the privacy section of their discord settings or it will not message them
 
-### Compatibility
-- [x] Splashforce 3.0
-- [x] yCopp account links
-- [ ] yCopp cookies
-- [x] LatchKey
-- [x] adisplash
-- [x] NoMercy (need testing)
-- [x] Gen5 (need testing)
-- [x] Balko (need testing)
-- [x] SoleAIO (need testing)
-- [x] Phantom (need testing)
-- [x] KodaiAIO (need testing)
+![demo](https://i.imgur.com/DCAhIlh.png)
+![demo](https://i.imgur.com/D35BHmW.png)
 
-![demo](https://i.imgur.com/YSlcJAG.png)
-
-## Video Tutorial
-click video (image) link below  
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ns6HeuZF3qU
-" target="_blank"><img src="https://i.ytimg.com/vi/ns6HeuZF3qU/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBA8DA1pdx9Gp2EDDpNRS8PtEvbFg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-### Bot permissions
+# Bot permissions
 * Bot status
 * Manage reactions
 
-## Creating Discord Applications 
-### Step 1: Navigate to /developers/applications
-Go to: discordapp.com/developers/applications/me or [click here](https://discordapp.com/developers/applications/me)
+# Creating Discord Applications 
+## Step 1: Navigate to /developers/applications
+Go to: [Discord Developer Portal](https://discordapp.com/developers/applications/me)
 
-### Step 2: Create your Application
+## Step 2: Create your Application
 - Click **New App**
 - Enter your Application's name under **App Name**  
 
@@ -62,7 +44,7 @@ You will see `Token: click to reveal` in your Bot Information Section, your Toke
 If your token does get into somebody's hands who shouldn't have it click the: **Regenerate new token** button, this will invalidate all prior tokens.
 
 ### Using your Token
-Open config.json and replace insert botToken, replacing `Bot login token` with the token received above.
+Open `config.json` and replace insert `botToken`, replacing `Bot login token` with the token received above.
 
 ## Adding Bots To Servers
 ### Generating OAuth Link
